@@ -19,6 +19,14 @@ const GlobalStyles = createGlobalStyle`
         background-color: #fff;
     }
 
+    .hero-section {
+        transition: all 0.8s ease-in-out;
+    }
+
+    body.dark__mode .hero-section  {
+        background: linear-gradient(35deg,#100f0f,#131b22) !important;
+    }
+
     ul li {
         list-style: none;
     }
