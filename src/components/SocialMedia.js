@@ -10,17 +10,17 @@ const SocialMedia = () => {
 			<span>Find Me on</span>
 			<ul>
 				<li>
-					<a href="https://twitter.com/said_mounaim" target="_blank">
+					<a href="https://twitter.com/said_mounaim" rel="noreferrer" target="_blank">
 						<img src={twitter} alt="Twitter" />
 					</a>
 				</li>
 				<li>
-					<a href="https://www.facebook.com/apiyaue06" target="_blank">
+					<a href="https://www.facebook.com/apiyaue06" rel="noreferrer" target="_blank">
 						<img src={facebook} alt="Facebook" />
 					</a>
 				</li>
 				<li>
-					<a href="https://github.com/saidMounaim" target="_blank">
+					<a href="https://github.com/saidMounaim" rel="noreferrer" target="_blank">
 						<img src={github} alt="Github" />
 					</a>
 				</li>
