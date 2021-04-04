@@ -52,6 +52,13 @@ const ToggleModeStyled = styled.div`
 		overflow: hidden;
 	}
 
+	@media screen and (max-width: 1024px) {
+		margin-top: 30px;
+		label {
+			position: initial;
+		}
+	}
+
 	#star {
 		position: absolute;
 		top: 13px;
