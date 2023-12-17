@@ -47,7 +47,7 @@ const SocialMediaStyled = styled.div`
   margin-top: 40px;
   span {
     display: block;
-    font-size: 30px;
+    font-size: 26px;
     color: white;
     font-weight: 200;
     margin-bottom: 17px;

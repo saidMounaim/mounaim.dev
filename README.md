@@ -22,14 +22,14 @@ git@2.17.1 or higher
 
 ## How To Use
 
-From your command line, clone and run SMPortfolio:
+From your command line, clone and run mounaim.dev:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saidMounaim/SMPortfolio.git
+$ git clone https://github.com/saidMounaim/mounaim.dev.git
 
 # Go into the repository
-$ cd SMPortfolio
+$ cd mounaim.dev
 
 # Install dependencies
 $ npm install
@@ -40,7 +40,6 @@ $ npm start
 
 ## Technologies Used
 
--   [React](https://reactjs.org/)
--   [styled-components](https://styled-components.com/)
--   [react-reveal](https://www.react-reveal.com/)
--   [react-lottie](https://www.npmjs.com/package/react-lottie)
+- [React](https://reactjs.org/)
+- [styled-components](https://styled-components.com/)
+- [react-reveal](https://www.react-reveal.com/)
