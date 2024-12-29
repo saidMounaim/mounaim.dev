@@ -32,6 +32,36 @@ export const metadata: Metadata = {
       media: "(prefers-color-scheme: dark)",
     },
   ],
+  metadataBase: new URL("https://mounaim.dev"),
+  openGraph: {
+    title: "Said MOUNAIM - Portfolio",
+    description:
+      "Said MOUNAIM - Full stack javaScript developer. Personal Website.",
+    url: "https://mounaim.dev",
+    siteName: "Said MOUNAIM Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Said MOUNAIM Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Said MOUNAIM - Portfolio",
+    description:
+      "Full Stack JavaScript Developer showcasing projects and skills",
+    images: ["/og-image.png"],
+    creator: "@saidmounaim",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
