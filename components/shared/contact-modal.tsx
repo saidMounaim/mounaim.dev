@@ -64,8 +64,8 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
         <DialogHeader>
           <DialogTitle className="text-teal-600">Contact Me</DialogTitle>
           <DialogDescription className="text-gray-600 dark:text-gray-300">
-            Fill out this form to get in touch with me. I'll get back to you as
-            soon as possible.
+            {`Fill out this form to get in touch with me. I'll get back to you as
+            soon as possible.`}
           </DialogDescription>
         </DialogHeader>
         <Form {...form}>
