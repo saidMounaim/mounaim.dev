@@ -18,7 +18,7 @@ export async function sendEmail(formData: {
   try {
     const { name, email, message } = formData;
 
-    const info = await transporter.sendMail({
+    await transporter.sendMail({
       from: `"Portfolio Contact Form" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_USER,
       subject: `New message from ${name}`,
