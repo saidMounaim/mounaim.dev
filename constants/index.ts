@@ -10,34 +10,35 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Resume Scan AI",
+    description:
+      "AI-powered Resume Analyzer using Next.js, Prisma, Inngest, AgentKit, and OpenAI.",
+    techs: ["Next.js", "OpenAI"],
+    link: "https://resume-scan-ai-seven.vercel.app/",
+  },
+  {
     title: "AI Travel Planner",
     description:
-      "A modern travel planner using Next.js 15, TailwindCSS, Prisma, Open AI, and Clerk.",
-    techs: ["Next.js"],
-    link: "https://github.com/saidMounaim/travelplan",
+      "A modern travel planner using Next.js, TailwindCSS, Prisma, Open AI, and Clerk.",
+    techs: ["Next.js", "OpenAI", "Clerk"],
+    link: "https://travelplan-sm.vercel.app/",
   },
   {
     title: "Meetroomly",
     description:
-      "MeetRoomly using Next.js 15, Prisma, Tailwind CSS, and Clerk.",
-    techs: ["Next.js"],
-    link: "https://github.com/saidMounaim/meetroomly",
-  },
-  {
-    title: "Home Service",
-    description:
-      "Home Service Full-stack app using NestJs, Next.js, React Query TailwindCSS & Prisma",
-    techs: ["Next.js", "Nest.js"],
-    link: "https://github.com/saidMounaim/home-service",
+      "MeetRoomly using Next.js, Prisma, Tailwind CSS, and Clerk.",
+    techs: ["Next.js", "Clerk"],
+    link: "https://meetroomly.vercel.app/",
   },
   {
     title: "Club Marathon",
     description:
-      "Club Marathon Landing Page using HTML5, CSS3, JavaScript, and GSAP",
-    techs: ["HTML5", "CSS3", "GSAP"],
+      "A dynamic and animated landing page for a running club, built with HTML5, CSS3, JavaScript, and GSAP for smooth scroll-based animations.",
+    techs: ["JavaScript", "GSAP"],
     link: "https://clubmarathon.fr/",
   },
 ];
+
 
 export const infos = {
   fullName: "Said MOUNAIM",
