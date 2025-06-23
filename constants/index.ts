@@ -24,11 +24,11 @@ export const projects = [
     link: "https://travelplan-sm.vercel.app/",
   },
   {
-    title: "Meetroomly",
+    title: "Link Loop",
     description:
-      "MeetRoomly using Next.js, Prisma, Tailwind CSS, and Clerk.",
-    techs: ["Next.js", "Clerk"],
-    link: "https://meetroomly.vercel.app/",
+      "Link Loop is a clean Linktree-style web app built with Next.js, Prisma, Better Auth, and ShadCN/UI.",
+    techs: ["Next.js", "Better Auth"],
+    link: "https://link-loop-share.vercel.app/",
   },
   {
     title: "Club Marathon",
@@ -38,7 +38,6 @@ export const projects = [
     link: "https://clubmarathon.fr/",
   },
 ];
-
 
 export const infos = {
   fullName: "Said MOUNAIM",
