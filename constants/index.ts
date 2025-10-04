@@ -17,11 +17,11 @@ export const projects = [
     link: "https://resume-scan-ai-seven.vercel.app/",
   },
   {
-    title: "AI Travel Planner",
+    title: "Cine Entry",
     description:
-      "A modern travel planner using Next.js, TailwindCSS, Prisma, Open AI, and Clerk.",
-    techs: ["Next.js", "OpenAI", "Clerk"],
-    link: "https://travelplan-sm.vercel.app/",
+      "Online movie ticket booking web app built with Next.js, shadcn/ui, Prisma, and ImageKit.",
+    techs: ["Next.js", "Better Auth"],
+    link: "https://cineentry.vercel.app/",
   },
   {
     title: "Link Loop",
@@ -29,6 +29,20 @@ export const projects = [
       "Link Loop is a clean Linktree-style web app built with Next.js, Prisma, Better Auth, and ShadCN/UI.",
     techs: ["Next.js", "Better Auth"],
     link: "https://link-loop-share.vercel.app/",
+  },
+  {
+    title: "AI Travel Planner",
+    description:
+      "A modern travel planner using Next.js, TailwindCSS, Prisma, Open AI, and Clerk.",
+    techs: ["Next.js", "OpenAI", "Clerk"],
+    link: "https://travelplan-sm.vercel.app/",
+  },
+    {
+    title: "Tick Event",
+    description:
+      "Event-sharing and ticketing web app built with Next.js, Prisma, BetterAuth, and ShadCN/UI.",
+    techs: ["Next.js", "Better Auth"],
+    link: "https://tick-event.vercel.app",
   },
   {
     title: "Club Marathon",
