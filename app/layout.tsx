@@ -19,7 +19,8 @@ export const metadata: Metadata = {
     default: "Said MOUNAIM | Full Stack JavaScript Developer",
     template: "%s | Said MOUNAIM",
   },
-  description: "Said MOUNAIM - Full Stack JavaScript developer based in Morocco. Expert in React, Next.js, and Node.js.",
+  description:
+    "Said MOUNAIM - Full Stack JavaScript developer based in Morocco. Expert in React, Next.js, and Node.js.",
   metadataBase: new URL("https://mounaim.dev"),
   alternates: {
     canonical: "/",
@@ -29,7 +30,6 @@ export const metadata: Metadata = {
       {
         url: "/favicon.svg",
         type: "image/svg+xml",
-        media: "(prefers-color-scheme: light)",
       },
       {
         url: "/favicon-dark.svg",
@@ -40,7 +40,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Said MOUNAIM | Full Stack JavaScript Developer",
-    description: "Said MOUNAIM - Full Stack JavaScript developer based in Morocco. Expert in React, Next.js, and Node.js.",
+    description:
+      "Said MOUNAIM - Full Stack JavaScript developer based in Morocco. Expert in React, Next.js, and Node.js.",
     url: "https://mounaim.dev",
     siteName: "Said MOUNAIM Portfolio",
     images: [
@@ -57,7 +58,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Said MOUNAIM | Full Stack JavaScript Developer",
-    description: "Full Stack JavaScript Developer showcasing projects and skills",
+    description:
+      "Full Stack JavaScript Developer showcasing projects and skills",
     images: ["/og-image.png"],
     creator: "@saidmounaim",
   },
@@ -85,10 +87,10 @@ export default function RootLayout({
     ],
     address: {
       "@type": "PostalAddress",
-      addressCountry: "Morocco", 
+      addressCountry: "Morocco",
     },
   };
-  
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>

@@ -50,23 +50,43 @@ export function ProfileCard() {
 
         <div className="flex justify-center space-x-4 mt-6">
           <a href={infos.github} target="_blank" rel="noopener noreferrer">
-            <Button variant="ghost" size="icon" className={classNameButton}>
+            <Button
+              variant="ghost"
+              size="icon"
+              className={classNameButton}
+              aria-label="Github Profile"
+            >
               <Github className="h-5 w-5" />
             </Button>
           </a>
           <a href={infos.linkedin} target="_blank" rel="noopener noreferrer">
-            <Button variant="ghost" size="icon" className={classNameButton}>
+            <Button
+              variant="ghost"
+              size="icon"
+              className={classNameButton}
+              aria-label="LinkedIn Profile"
+            >
               <Linkedin className="h-5 w-5" />
             </Button>
           </a>
           <a href={infos.x} target="_blank" rel="noopener noreferrer">
-            <Button variant="ghost" size="icon" className={classNameButton}>
+            <Button
+              variant="ghost"
+              size="icon"
+              className={classNameButton}
+              aria-label="X Profile"
+            >
               <TwitterX className="h-5 w-5 fill-current" />
               <span className="sr-only">X (formerly Twitter)</span>
             </Button>
           </a>
           <a href={`mailto:${infos.mail}`}>
-            <Button variant="ghost" size="icon" className={classNameButton}>
+            <Button
+              variant="ghost"
+              size="icon"
+              className={classNameButton}
+              aria-label="Send Email"
+            >
               <Mail className="h-5 w-5" />
             </Button>
           </a>
