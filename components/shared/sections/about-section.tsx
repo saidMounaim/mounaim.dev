@@ -9,7 +9,9 @@ export function AboutSection() {
         <CardTitle className="text-xl font-semibold text-teal-700 dark:text-teal-300">
           About Me
         </CardTitle>
-        <ModeToggle />
+        <div className="hidden md:block">
+          <ModeToggle />
+        </div>
       </CardHeader>
       <CardContent>
         <p className="text-gray-600 dark:text-gray-300">{bio}</p>

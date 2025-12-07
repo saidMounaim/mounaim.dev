@@ -3,14 +3,18 @@ import { ProfileCard } from "@/components/shared/profile-card";
 import { AboutSection } from "@/components/shared/sections/about-section";
 import { ProjectsSection } from "@/components/shared/sections/projects-section";
 import { SkillsSection } from "@/components/shared/sections/skills-section";
+import { ModeToggle } from "@/components/shared/mode-toggle";
 
 export default function Home() {
   return (
     <>
       <BackgroundShapes />
+      <div className="fixed top-4 right-4 z-50 md:hidden">
+        <ModeToggle />
+      </div>
       <main className="min-h-screen bg-gradient-to-br from-teal-50 via-white to-cyan-50 dark:from-teal-950 dark:via-gray-900 dark:to-cyan-950 p-4 md:p-8">
         <div className="mx-auto max-w-6xl grid gap-8 md:grid-cols-[350px_1fr]">
-          <aside className="space-y-6">
+          <aside className="space-y-6 md:sticky md:top-8 md:self-start">
             <ProfileCard />
           </aside>
           <div className="space-y-12">

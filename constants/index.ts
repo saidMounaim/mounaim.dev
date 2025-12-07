@@ -10,6 +10,13 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Terrace Shop",
+    description:
+      "A custom online store built with Next.js and Shopify. It lets users browse products, add items to a cart, and log in to see their orders.",
+    techs: ["Next.js", "Shopify API"],
+    link: "https://terraceshop.vercel.app/",
+  },
+  {
     title: "Resume Scan AI",
     description:
       "AI-powered Resume Analyzer using Next.js, Prisma, Inngest, AgentKit, and OpenAI.",
@@ -31,13 +38,20 @@ export const projects = [
     link: "https://link-loop-share.vercel.app/",
   },
   {
+    title: "FootBookr",
+    description:
+      "Football pitch reservation app built with Next.js, Shadcn UI, Prisma, and Better Auth.",
+    techs: ["Next.js", "Better Auth"],
+    link: "https://footbookr.vercel.app/",
+  },
+  {
     title: "AI Travel Planner",
     description:
       "A modern travel planner using Next.js, TailwindCSS, Prisma, Open AI, and Clerk.",
     techs: ["Next.js", "OpenAI", "Clerk"],
     link: "https://travelplan-sm.vercel.app/",
   },
-    {
+  {
     title: "Tick Event",
     description:
       "Event-sharing and ticketing web app built with Next.js, Prisma, BetterAuth, and ShadCN/UI.",
