@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
     <img src="https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
   </div>
 </div>
 
@@ -49,4 +50,5 @@ Update your details in the `/constants/index.ts` file.
 - [TailwindCSS](https://tailwindcss.com/)
 - [Shadcn/ui](https://ui.shadcn.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Framer Motion](https://www.framer.com/motion/)
 - [Nodemailer](https://www.nodemailer.com/)

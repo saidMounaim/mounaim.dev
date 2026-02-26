@@ -6,6 +6,8 @@ export const skills = [
   { name: "Backend", items: ["Node.js", "Express", "Nest.js"] },
   { name: "Database", items: ["MongoDB", "PostgreSQL", "MySQL"] },
   { name: "CMS & Headless CMS", items: ["WordPress", "Strapi.js"] },
+  { name: "AI Development", items: ["Cursor", "Claude Code"] },
+  { name: "Dev Workflow", items: ["Spec-Driven Development"] },
 ];
 
 export const projects = [
