@@ -4,11 +4,10 @@ import { AboutSection } from "@/components/shared/sections/about-section";
 import { ProjectsSection } from "@/components/shared/sections/projects-section";
 import { SkillsSection } from "@/components/shared/sections/skills-section";
 import { ModeToggle } from "@/components/shared/mode-toggle";
-import { IntroWrapper } from "@/components/shared/intro-wrapper";
 
 export default function Home() {
   return (
-    <IntroWrapper>
+    <>
       <BackgroundShapes />
 
       {/* Grain texture overlay */}
@@ -45,6 +44,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-    </IntroWrapper>
+    </>
   );
 }
