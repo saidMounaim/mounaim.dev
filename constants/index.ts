@@ -12,18 +12,25 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Terrace Shop",
-    description:
-      "A custom online store built with Next.js and Shopify. It lets users browse products, add items to a cart, and log in to see their orders.",
-    techs: ["Next.js", "Shopify API"],
-    link: "https://terraceshop.vercel.app/",
-  },
-  {
     title: "Resume Scan AI",
     description:
       "AI-powered Resume Analyzer using Next.js, Prisma, Inngest, AgentKit, and OpenAI.",
     techs: ["Next.js", "OpenAI"],
     link: "https://resume-scan-ai-seven.vercel.app/",
+  },
+  {
+    title: "Figma WP Blueprint",
+    description:
+      "Spec-driven AI workflow that turns a Figma design into a pixel-perfect custom WordPress theme with Claude Code, ACF Pro, pure CSS, and vanilla JS.",
+    techs: ["WordPress", "Claude Code"],
+    link: "https://figma-wp-blueprint.vercel.app/",
+  },
+  {
+    title: "Terrace Shop",
+    description:
+      "A custom online store built with Next.js and Shopify. It lets users browse products, add items to a cart, and log in to see their orders.",
+    techs: ["Next.js", "Shopify API"],
+    link: "https://github.com/saidMounaim/terraceshop",
   },
   {
     title: "Cine Entry",
