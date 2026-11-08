@@ -6,7 +6,7 @@ export const skills = [
   { name: "Backend", items: ["Node.js", "Express", "Nest.js"] },
   { name: "Database", items: ["MongoDB", "PostgreSQL", "MySQL"] },
   { name: "CMS & Headless CMS", items: ["WordPress", "Strapi.js"] },
-  { name: "AI Development", items: ["Cursor", "Claude Code"] },
+  { name: "AI Development", items: ["Claude Code", "Codex"] },
   { name: "Dev Workflow", items: ["Spec-Driven Development"] },
 ];
 
@@ -17,6 +17,13 @@ export const projects = [
       "AI-powered Resume Analyzer using Next.js, Prisma, Inngest, AgentKit, and OpenAI.",
     techs: ["Next.js", "OpenAI"],
     link: "https://resume-scan-ai-seven.vercel.app/",
+  },
+  {
+    title: "Snipgif",
+    description:
+      "Free in-browser video to GIF converter. Trim, crop, add captions, and resize MP4, MOV, WebM, or AVI videos with no upload, no watermark, and no sign-up.",
+    techs: ["Astro", "FFmpeg"],
+    link: "https://snipgif.vercel.app/",
   },
   {
     title: "Figma WP Blueprint",
